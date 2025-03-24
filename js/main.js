@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
       '<span class="btn-text">Sending...</span><span class="btn-icon"><i class="fas fa-spinner fa-spin"></i></span>'
 
     // Replace with your Google Apps Script URL
-    const scriptURL = "https://script.google.com/macros/s/AKfycbwsSpOOhAs_wQN9xM4VMjErEd7lftSMmKOZmQCB1ItPv242eaGZF032zbPXKoHmA7BAdA/exec"
+    const scriptURL = "https://script.google.com/macros/s/AKfycby5h2MSECgXK6MRxACJ90ZeZ6gpZ7ScTqurZeWIdgAlY6ouMVzvvcVcynvNiwHVtIjhPQ/exec"
 
     fetch(scriptURL, {
       method: "POST",
