@@ -1,48 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <!-- Homepage -->
   <url>
     <loc>https://sujanbasnet7206.com.np/</loc>
     <lastmod>2025-10-20T06:15:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
 
-  <!-- PDF résumé -->
+  <!-- PDF Résumé -->
   <url>
     <loc>https://sujanbasnet7206.com.np/assets/sujan-basnet-cv.pdf</loc>
     <lastmod>2025-10-20T06:15:18+00:00</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
 
-  <!-- PDF other document -->
+  <!-- Additional Document -->
   <url>
     <loc>https://sujanbasnet7206.com.np/assets/sujan-basnet.pdf</loc>
     <lastmod>2025-10-20T06:15:18+00:00</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.70</priority>
   </url>
 
-  <!-- Image PNG -->
+  <!-- Main Portfolio Image -->
   <url>
     <loc>https://sujanbasnet7206.com.np/assets/sujan-basnet.png</loc>
     <lastmod>2025-10-20T06:15:18+00:00</lastmod>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
     <image:image>
       <image:loc>https://sujanbasnet7206.com.np/assets/sujan-basnet.png</image:loc>
-      <image:caption>Sujan Basnet portrait</image:caption>
+      <image:title>Sujan Basnet - Full-Stack Developer</image:title>
+      <image:caption>Professional portrait of Sujan Basnet</image:caption>
     </image:image>
   </url>
 
-  <!-- Image WEBP -->
+  <!-- WEBP High-Performance Image -->
   <url>
     <loc>https://sujanbasnet7206.com.np/assets/sujan-basnet.webp</loc>
     <lastmod>2025-10-20T06:15:18+00:00</lastmod>
-    <priority>0.50</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
     <image:image>
       <image:loc>https://sujanbasnet7206.com.np/assets/sujan-basnet.webp</image:loc>
-      <image:caption>Sujan Basnet portrait (WEBP)</image:caption>
+      <image:title>Sujan Basnet - Full-Stack Developer (WEBP)</image:title>
+      <image:caption>Optimized WEBP portrait of Sujan Basnet for SEO</image:caption>
     </image:image>
   </url>
 
