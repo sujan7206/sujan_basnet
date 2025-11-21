@@ -1,7 +1,6 @@
 // ===================================
 // Navigation & Theme Toggle
 // ===================================
-
 const nav = document.getElementById('nav');
 const navToggle = document.getElementById('nav-toggle');
 const navMenu = document.getElementById('nav-menu');
@@ -52,16 +51,13 @@ navLinks.forEach(link => {
 
 // Active Navigation Link on Scroll
 const sections = document.querySelectorAll('section[id]');
-
 function scrollActive() {
   const scrollY = window.pageYOffset;
-
   sections.forEach(section => {
     const sectionHeight = section.offsetHeight;
     const sectionTop = section.offsetTop - 100;
     const sectionId = section.getAttribute('id');
     const navLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
-
     if (navLink) {
       if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
         navLink.classList.add('active');
@@ -71,7 +67,6 @@ function scrollActive() {
     }
   });
 }
-
 window.addEventListener('scroll', scrollActive);
 
 // Theme Toggle
@@ -108,7 +103,6 @@ backToTop.addEventListener('click', () => {
 // ===================================
 // Typing Animation
 // ===================================
-
 const typingText = document.getElementById('typing-text');
 const roles = [
   'CSIT Student',
@@ -118,7 +112,6 @@ const roles = [
   'Python Developer',
   'Problem Solver'
 ];
-
 let roleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
@@ -155,7 +148,6 @@ setTimeout(typeRole, 1000);
 // ===================================
 // Smooth Scroll
 // ===================================
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -173,7 +165,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // ===================================
 // Scroll Reveal Animation
 // ===================================
-
 function revealOnScroll() {
   const reveals = document.querySelectorAll('.scroll-reveal');
   
@@ -211,7 +202,6 @@ setTimeout(revealOnScroll, 100);
 // ===================================
 // Skill Bars Animation
 // ===================================
-
 function animateSkillBars() {
   const skillBars = document.querySelectorAll('.skill-progress');
   
@@ -246,14 +236,12 @@ window.addEventListener('scroll', () => {
 // ===================================
 // Gallery Lightbox
 // ===================================
-
 const galleryItems = document.querySelectorAll('.gallery-item');
 const lightbox = document.getElementById('lightbox');
 const lightboxContent = document.getElementById('lightbox-content');
 const lightboxClose = document.getElementById('lightbox-close');
 const lightboxPrev = document.getElementById('lightbox-prev');
 const lightboxNext = document.getElementById('lightbox-next');
-
 let currentGalleryIndex = 0;
 
 galleryItems.forEach((item, index) => {
@@ -279,12 +267,10 @@ function closeLightbox() {
 }
 
 lightboxClose.addEventListener('click', closeLightbox);
-
 lightboxPrev.addEventListener('click', () => {
   currentGalleryIndex = (currentGalleryIndex - 1 + galleryItems.length) % galleryItems.length;
   openLightbox(currentGalleryIndex);
 });
-
 lightboxNext.addEventListener('click', () => {
   currentGalleryIndex = (currentGalleryIndex + 1) % galleryItems.length;
   openLightbox(currentGalleryIndex);
@@ -317,9 +303,7 @@ document.addEventListener('keydown', (e) => {
 // ===================================
 // Lazy Loading (for future images)
 // ===================================
-
 const images = document.querySelectorAll('img[data-src]');
-
 const imageObserver = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -338,7 +322,6 @@ images.forEach(img => imageObserver.observe(img));
 // ===================================
 // Loading State
 // ===================================
-
 window.addEventListener('load', () => {
   document.body.classList.add('loaded');
 });
@@ -346,9 +329,7 @@ window.addEventListener('load', () => {
 // ===================================
 // Performance: Reduce motion for users who prefer it
 // ===================================
-
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-
 if (prefersReducedMotion.matches) {
   // Disable animations for users who prefer reduced motion
   document.documentElement.style.setProperty('--transition-fast', '0ms');
@@ -359,8 +340,8 @@ if (prefersReducedMotion.matches) {
 // ===================================
 // Console Easter Egg
 // ===================================
-
 console.log(`
+
 %c
 ╔═══════════════════════════════════════════╗
 ║                                           ║
@@ -373,6 +354,7 @@ console.log(`
 ║   GitHub: github.com/sujan7206           ║
 ║                                           ║
 ╚═══════════════════════════════════════════╝
+
 `,
 'color: #2563eb; font-family: monospace; font-size: 12px;'
 );
