@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+  
     <!-- Primary Meta Tags -->
-    <title>Sujan Basnet – Expert Full-Stack Developer in Kathmandu, Nepal | PHP, Laravel, Django, .NET, React Specialist | Portfolio</title>
-    <meta name="description" content="Sujan Basnet - Professional full-stack developer in Kathmandu, Nepal specializing in PHP, Laravel, Python/Django, .NET, JavaScript, React, and MySQL. BSc CSIT student with 2+ years experience building scalable web applications, e-commerce platforms, AI chatbots, and travel booking systems like Holiday Himalaya. Available for freelance projects and collaborations." />
+    <title>Sujan Basnet – Full-Stack Developer Kathmandu, Nepal | PHP, Laravel, Django, React</title>
+    <meta name="description" content="Sujan Basnet - Expert full-stack developer in Kathmandu, Nepal. Specializes in PHP, Laravel, Python/Django, .NET, React, MySQL. Built scalable web apps, e-commerce, AI chatbots, travel systems like Holiday Himalaya. Freelance available." />
     <meta name="keywords" content="Sujan Basnet, full stack developer Kathmandu, web developer Nepal, PHP Laravel developer Nepal, Python Django developer Kathmandu, .NET developer Nepal, React developer, CSIT student portfolio, Holiday Himalaya developer, travel booking system Nepal, AI chatbot developer, e-commerce developer Nepal, freelance developer Kathmandu, web development services Nepal" />
     <meta name="author" content="Sujan Basnet" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
@@ -14,47 +15,1524 @@
     <meta name="rating" content="general" />
     <meta name="format-detection" content="telephone=yes" />
     <link rel="canonical" href="https://sujanbasnet7206.com.np/" />
-    
+   
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sujanbasnet7206.com.np/" />
-    <meta property="og:title" content="Sujan Basnet – Expert Full-Stack Developer & CSIT Student | Kathmandu, Nepal" />
-    <meta property="og:description" content="Professional full-stack developer in Kathmandu, Nepal specializing in PHP, Laravel, Python/Django, .NET, React, and MySQL. Building scalable web applications, e-commerce platforms, and AI-powered solutions." />
+    <meta property="og:title" content="Sujan Basnet – Full-Stack Developer Kathmandu, Nepal" />
+    <meta property="og:description" content="Professional full-stack developer specializing in PHP, Laravel, Python/Django, .NET, React, MySQL. Building scalable web apps, e-commerce, AI solutions." />
     <meta property="og:image" content="https://sujanbasnet7206.com.np/assets/sujan-basnet.webp" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Sujan Basnet - Full-Stack Web Developer in Kathmandu, Nepal" />
+    <meta property="og:image:alt" content="Sujan Basnet - Full-Stack Web Developer Kathmandu, Nepal" />
     <meta property="og:site_name" content="Sujan Basnet Portfolio" />
     <meta property="og:locale" content="en_US" />
-    
+   
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://sujanbasnet7206.com.np/" />
-    <meta name="twitter:title" content="Sujan Basnet – Full-Stack Developer Kathmandu | PHP, Django, .NET Expert" />
-    <meta name="twitter:description" content="Nepal-based CSIT student and full-stack developer specializing in PHP, Laravel, Python/Django, .NET, React, and MySQL. View projects and contact for collaborations." />
+    <meta name="twitter:title" content="Sujan Basnet – Full-Stack Developer Kathmandu | PHP, Django, React" />
+    <meta name="twitter:description" content="Nepal-based CSIT student and full-stack developer specializing in PHP, Laravel, Python/Django, .NET, React, MySQL. View projects and contact." />
     <meta name="twitter:image" content="https://sujanbasnet7206.com.np/assets/sujan-basnet.webp" />
     <meta name="twitter:creator" content="@sujanbasnet" />
-    
+   
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/assets/sujan-basnet.png">
     <link rel="apple-touch-icon" href="/assets/sujan-basnet.png">
-    
+   
     <!-- Preload Critical Resources -->
     <link rel="preload" href="/assets/sujan-basnet.webp" as="image" type="image/webp">
     <link rel="preload" href="/css/style.css" as="style">
     <link rel="preload" href="/js/main.js" as="script">
-    
+   
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    
+   
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+   
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-    
+   <style>
+/* ===================================
+   CSS Variables & Design Tokens
+   =================================== */
+:root {
+  /* Colors - Light Mode */
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --primary-light: #3b82f6;
+  --secondary: #64748b;
+  --accent: #0ea5e9;
+ 
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #f1f5f9;
+  --bg-elevated: #ffffff;
+ 
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #94a3b8;
+ 
+  --border-color: #e2e8f0;
+  --border-color-light: #f1f5f9;
+ 
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+ 
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+ 
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+ 
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+ 
+  /* Border Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+}
+.dark {
+  /* Colors - Dark Mode */
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --primary-light: #60a5fa;
+  --secondary: #94a3b8;
+  --accent: #38bdf8;
+ 
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --bg-elevated: #1e293b;
+ 
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #64748b;
+ 
+  --border-color: #334155;
+  --border-color-light: #1e293b;
+ 
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
+/* ===================================
+   Reset & Base Styles
+   =================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+  transition: background-color var(--transition-base);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--transition-fast);
+}
+ul {
+  list-style: none;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: all var(--transition-fast);
+}
+/* ===================================
+   Utility Classes
+   =================================== */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.text-accent {
+  color: var(--primary);
+}
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+.fade-in-up {
+  animation: fadeInUp 0.8s ease forwards;
+}
+.fade-in-up-delay {
+  animation: fadeInUp 0.8s ease 0.2s forwards;
+  opacity: 0;
+}
+.fade-in-up-delay-2 {
+  animation: fadeInUp 0.8s ease 0.4s forwards;
+  opacity: 0;
+}
+.fade-in-up-delay-3 {
+  animation: fadeInUp 0.8s ease 0.6s forwards;
+  opacity: 0;
+}
+.fade-in-up-delay-4 {
+  animation: fadeInUp 0.8s ease 0.8s forwards;
+  opacity: 0;
+}
+.fade-in-right {
+  animation: fadeInRight 0.8s ease 0.3s forwards;
+  opacity: 0;
+}
+/* ===================================
+   Navigation
+   =================================== */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border-color);
+  transition: all var(--transition-base);
+}
+.nav.scrolled {
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.dark .nav.scrolled {
+  background-color: rgba(15, 23, 42, 0.95);
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  transition: color var(--transition-fast);
+}
+.nav-logo:hover {
+  color: var(--primary);
+}
+.nav-menu {
+  display: flex;
+  gap: var(--spacing-lg);
+  align-items: center;
+}
+.nav-link {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.95rem;
+  position: relative;
+  padding: 0.5rem 0;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary);
+  transition: width var(--transition-base);
+}
+.nav-link:hover,
+.nav-link.active {
+  color: var(--primary);
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+.nav-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  background-color: transparent;
+  transition: all var(--transition-fast);
+}
+.theme-toggle:hover {
+  background-color: var(--bg-tertiary);
+  color: var(--primary);
+}
+.nav-toggle {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  background-color: transparent;
+}
+/* ===================================
+   Buttons
+   =================================== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all var(--transition-base);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+.btn-outline {
+  background-color: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.btn-outline:hover {
+  background-color: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+/* ===================================
+   Hero Section
+   =================================== */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 100px 0 60px;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(14, 165, 233, 0.05) 100%);
+  z-index: -1;
+}
+.hero-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(var(--border-color-light) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border-color-light) 1px, transparent 1px);
+  background-size: 50px 50px;
+  opacity: 0.3;
+}
+.hero-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: var(--spacing-2xl);
+  align-items: center;
+  width: 100%;
+}
+.hero-text {
+  z-index: 1;
+}
+.hero-greeting {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-sm);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.wave-icon {
+  display: inline-block;
+  color: var(--primary);
+  animation: wave 2s ease-in-out infinite;
+}
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  10%, 30% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  40% { transform: rotate(14deg); }
+  50% { transform: rotate(0deg); }
+}
+.hero-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: var(--spacing-md);
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero-subtitle {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--primary);
+  margin-bottom: var(--spacing-lg);
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.typing-text {
+  font-family: var(--font-mono);
+}
+.cursor {
+  animation: blink 1s step-end infinite;
+  font-weight: 400;
+  margin-left: 2px;
+}
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+.hero-description {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--spacing-xl);
+  max-width: 600px;
+}
+.hero-cta {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-xl);
+}
+.hero-social {
+  display: flex;
+  gap: var(--spacing-md);
+}
+.social-link {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  font-size: 1.25rem;
+  transition: all var(--transition-base);
+}
+.social-link:hover {
+  background-color: var(--primary);
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+.hero-image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-image-bg {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  opacity: 0.1;
+  animation: pulse 3s ease-in-out infinite;
+}
+.hero-tech-stack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.tech-icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-lg);
+  background-color: var(--bg-elevated);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: var(--primary);
+  box-shadow: var(--shadow-lg);
+  animation: float 3s ease-in-out infinite;
+}
+.tech-icon:nth-child(1) {
+  top: 10%;
+  left: 10%;
+}
+.tech-icon:nth-child(2) {
+  top: 20%;
+  right: 15%;
+}
+.tech-icon:nth-child(3) {
+  bottom: 30%;
+  left: 5%;
+}
+.tech-icon:nth-child(4) {
+  bottom: 15%;
+  right: 10%;
+}
+.tech-icon:nth-child(5) {
+  top: 50%;
+  right: 5%;
+}
+.scroll-indicator {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.scroll-down {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+/* ===================================
+   Sections
+   =================================== */
+.section {
+  padding: var(--spacing-2xl) 0;
+  position: relative;
+}
+.section-alt {
+  background-color: var(--bg-secondary);
+}
+.section-header {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+.section-tag {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--spacing-sm);
+}
+.section-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-md);
+}
+/* ===================================
+   About Section
+   =================================== */
+.about-content {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: var(--spacing-2xl);
+}
+.about-subtitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-md);
+}
+.about-description {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--spacing-md);
+}
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-xl) 0;
+}
+.stat-card {
+  background-color: var(--bg-secondary);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: center;
+  transition: all var(--transition-base);
+  border: 1px solid var(--border-color);
+}
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary);
+}
+.stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+.stat-number {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.stat-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+.about-details {
+  display: grid;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--text-secondary);
+}
+.detail-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  min-width: 120px;
+}
+.detail-label i {
+  color: var(--primary);
+}
+.detail-value {
+  color: var(--text-secondary);
+}
+.timeline-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-lg);
+}
+.timeline {
+  position: relative;
+  padding-left: var(--spacing-lg);
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--border-color);
+}
+.timeline-item {
+  position: relative;
+  padding-bottom: var(--spacing-xl);
+}
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+.timeline-marker {
+  position: absolute;
+  left: -32px;
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  border: 3px solid var(--bg-primary);
+  box-shadow: 0 0 0 4px var(--bg-secondary);
+}
+.timeline-content {
+  background-color: var(--bg-primary);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-base);
+}
+.timeline-content:hover {
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md);
+}
+.timeline-date {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+}
+.timeline-heading {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+.timeline-institution {
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+.timeline-location {
+  color: var(--text-tertiary);
+  font-size: 0.875rem;
+  margin-bottom: var(--spacing-sm);
+}
+.timeline-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--primary);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: var(--spacing-xs);
+}
+/* ===================================
+   Skills Section
+   =================================== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-xl);
+}
+.skill-category {
+  background-color: var(--bg-elevated);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-base);
+}
+.skill-category:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary);
+}
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+}
+.category-header i {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+.category-header h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-name {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+.skill-level {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+}
+.skill-bar {
+  height: 6px;
+  background-color: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
+  border-radius: var(--radius-sm);
+  transition: width 1s ease;
+}
+/* ===================================
+   Projects Section
+   =================================== */
+.projects-grid {
+  display: grid;
+  gap: var(--spacing-xl);
+}
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--bg-elevated);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-base);
+}
+.project-card:not(.featured) {
+  grid-template-columns: 400px 1fr;
+}
+.project-card.featured {
+  grid-template-columns: 1.2fr 1fr;
+}
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--primary);
+}
+.project-image {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+.project-card.featured .project-image {
+  height: 400px;
+}
+.project-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 4rem;
+  opacity: 0.9;
+}
+.project-placeholder p {
+  margin-top: var(--spacing-md);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
+.project-links {
+  display: flex;
+  gap: var(--spacing-md);
+}
+.project-link {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  transition: all var(--transition-base);
+}
+.project-link:hover {
+  background-color: var(--primary);
+  color: white;
+  transform: scale(1.1);
+}
+.project-content {
+  padding: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+.project-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--primary);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  width: fit-content;
+}
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.project-description {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  flex-grow: 1;
+}
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+.tech-tag {
+  padding: 0.375rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+}
+.project-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  margin-top: var(--spacing-sm);
+}
+/* ===================================
+   Experience Section
+   =================================== */
+.experience-timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: var(--spacing-xl);
+}
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--border-color);
+}
+.experience-item {
+  position: relative;
+  padding-bottom: var(--spacing-2xl);
+}
+.experience-item:last-child {
+  padding-bottom: 0;
+}
+.experience-marker {
+  position: absolute;
+  left: -38px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  border: 4px solid var(--bg-secondary);
+  box-shadow: 0 0 0 4px var(--bg-elevated);
+}
+.experience-content {
+  background-color: var(--bg-elevated);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-base);
+}
+.experience-content:hover {
+  border-color: var(--primary);
+  box-shadow: var(--shadow-lg);
+}
+.experience-date {
+  display: inline-block;
+  font-size: 0.875rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+}
+.experience-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+}
+.experience-company {
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: var(--spacing-md);
+}
+.experience-description {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--spacing-md);
+}
+.experience-highlights {
+  list-style: none;
+  margin-bottom: var(--spacing-md);
+}
+.experience-highlights li {
+  color: var(--text-secondary);
+  padding-left: var(--spacing-md);
+  position: relative;
+  margin-bottom: var(--spacing-xs);
+}
+.experience-highlights li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+.experience-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+}
+/* ===================================
+   Gallery Section
+   =================================== */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+.gallery-item {
+  position: relative;
+  height: 250px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+.gallery-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+.gallery-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--bg-tertiary) 0%, var(--bg-secondary) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-tertiary);
+  border: 2px dashed var(--border-color);
+  transition: all var(--transition-base);
+}
+.gallery-item:hover .gallery-placeholder {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  color: white;
+  border-color: transparent;
+}
+.gallery-placeholder i {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+}
+.gallery-placeholder p {
+  font-weight: 500;
+  text-align: center;
+  padding: 0 var(--spacing-md);
+}
+/* ===================================
+   Contact Section
+   =================================== */
+.contact-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contact-intro {
+  text-align: center;
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-2xl);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+}
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+.contact-card {
+  background-color: var(--bg-elevated);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-base);
+}
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary);
+}
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-md);
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+.contact-details {
+  flex: 1;
+}
+.contact-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+.contact-value {
+  color: var(--text-primary);
+  font-weight: 500;
+  word-break: break-all;
+  transition: color var(--transition-fast);
+}
+a.contact-value:hover {
+  color: var(--primary);
+}
+.contact-social {
+  text-align: center;
+}
+.contact-social-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-lg);
+}
+.social-links-large {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+.social-link-large {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  background-color: var(--bg-elevated);
+  color: var(--text-secondary);
+  min-width: 120px;
+  border: 1px solid var(--border-color);
+  transition: all var(--transition-base);
+}
+.social-link-large:hover {
+  background-color: var(--primary);
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary);
+}
+.social-link-large i {
+  font-size: 2rem;
+}
+.social-link-large span {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+/* ===================================
+   Footer
+   =================================== */
+.footer {
+  background-color: var(--bg-tertiary);
+  border-top: 1px solid var(--border-color);
+  padding: var(--spacing-2xl) 0 var(--spacing-lg);
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+.footer-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-md);
+}
+.footer-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-md);
+}
+.footer-social {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+.footer-social a {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-base);
+}
+.footer-social a:hover {
+  background-color: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+.footer-links a {
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
+}
+.footer-links a:hover {
+  color: var(--primary);
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--border-color);
+}
+.footer-copyright {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+.back-to-top {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-base);
+}
+.back-to-top:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+/* ===================================
+   Lightbox
+   =================================== */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox.active {
+  display: flex;
+}
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transition: all var(--transition-base);
+  backdrop-filter: blur(10px);
+}
+.lightbox-close:hover,
+.lightbox-prev:hover,
+.lightbox-next:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+.lightbox-close {
+  top: 30px;
+  right: 30px;
+}
+.lightbox-prev {
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.lightbox-next {
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* ===================================
+   Responsive Design
+   =================================== */
+@media (max-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+  }
+ 
+  .hero-image {
+    order: -1;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+ 
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+ 
+  .project-card:not(.featured),
+  .project-card.featured {
+    grid-template-columns: 1fr;
+  }
+ 
+  .project-image {
+    height: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: var(--bg-primary);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--spacing-xl);
+    gap: var(--spacing-md);
+    transition: left var(--transition-base);
+    box-shadow: var(--shadow-lg);
+    border-top: 1px solid var(--border-color);
+  }
+ 
+  .nav-menu.active {
+    left: 0;
+  }
+ 
+  .nav-toggle {
+    display: flex;
+  }
+ 
+  .hero {
+    padding-top: 90px;
+  }
+ 
+  .hero-title {
+    font-size: 2.5rem;
+  }
+ 
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+ 
+  .hero-cta {
+    flex-direction: column;
+  }
+ 
+  .btn-lg {
+    width: 100%;
+    justify-content: center;
+  }
+ 
+  .about-stats {
+    grid-template-columns: 1fr;
+  }
+ 
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+ 
+  .experience-timeline {
+    padding-left: var(--spacing-lg);
+  }
+ 
+  .contact-cards {
+    grid-template-columns: 1fr;
+  }
+ 
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+ 
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+ 
+  .section {
+    padding: var(--spacing-xl) 0;
+  }
+ 
+  .hero-tech-stack {
+    display: none;
+  }
+ 
+  .tech-tag {
+    font-size: 0.75rem;
+  }
+ 
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* ===================================
+   Scroll Reveal Animation
+   =================================== */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+.scroll-reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+   
     <!-- Enhanced Structured Data -->
     <script type="application/ld+json">
     {
@@ -141,7 +1619,7 @@
             <a href="#home" class="nav-logo" data-testid="link-nav-logo" aria-label="Sujan Basnet homepage">
                 Sujan<span class="text-accent">.</span>Basnet
             </a>
-          
+         
             <ul class="nav-menu" id="nav-menu" role="menubar">
                 <li class="nav-item" role="none"><a href="#home" class="nav-link active" data-testid="link-nav-home" role="menuitem">Home</a></li>
                 <li class="nav-item" role="none"><a href="#about" class="nav-link" data-testid="link-nav-about" role="menuitem">About</a></li>
@@ -151,7 +1629,7 @@
                 <li class="nav-item" role="none"><a href="#gallery" class="nav-link" data-testid="link-nav-gallery" role="menuitem">Gallery</a></li>
                 <li class="nav-item" role="none"><a href="#contact" class="nav-link" data-testid="link-nav-contact" role="menuitem">Contact</a></li>
             </ul>
-          
+         
             <div class="nav-actions">
                 <a href="/assets/sujan-basnet-cv.pdf" download class="btn btn-primary btn-sm" data-testid="button-download-cv-nav" aria-label="Download Sujan Basnet CV">
                     <i class="fas fa-download" aria-hidden="true"></i> Download CV
@@ -165,7 +1643,6 @@
             </div>
         </div>
     </nav>
-
     <!-- Hero Section -->
     <section class="hero" id="home" role="banner">
         <div class="hero-bg">
@@ -242,19 +1719,17 @@
             </a>
         </div>
     </section>
-
     <!-- About Section -->
     <section class="section" id="about" role="region" aria-labelledby="about-heading">
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Get To Know</span>
-                <h2 class="section-title" id="about-heading">About Me</h2>
+                <h2 class="section-title" id="about-heading">About Me – Full-Stack Developer & CSIT Student in Kathmandu</h2>
             </div>
-          
+         
             <div class="about-content">
                 <div class="about-text">
                     <div class="about-intro">
-                        <h3 class="about-subtitle">Full-Stack Developer & CSIT Student in Kathmandu, Nepal</h3>
                         <p class="about-description">
                             I'm Sujan Basnet, a passionate full-stack developer and BSc CSIT student based in Kathmandu, Nepal. With over 2 years of professional experience in web development, I specialize in creating dynamic, responsive, and database-driven applications using modern technologies like PHP, Laravel, Python/Django, .NET, JavaScript, and React.
                         </p>
@@ -265,7 +1740,7 @@
                             Currently, I'm expanding my expertise in mobile app development and advanced software engineering concepts while continuing to deliver high-quality web solutions for clients and businesses in Nepal and internationally.
                         </p>
                     </div>
-                  
+                 
                     <div class="about-stats">
                         <div class="stat-card" data-testid="card-stat-projects">
                             <div class="stat-icon">
@@ -295,7 +1770,7 @@
                             </div>
                         </div>
                     </div>
-                  
+                 
                     <div class="about-details">
                         <div class="detail-item">
                             <span class="detail-label"><i class="fas fa-user" aria-hidden="true"></i> Full Name:</span>
@@ -315,15 +1790,15 @@
                         </div>
                     </div>
                 </div>
-              
+             
                 <div class="education-timeline">
-                    <h3 class="timeline-title">Education & Academic Background</h3>
+                    <div class="timeline-title">Education & Academic Background</div>
                     <div class="timeline">
                         <div class="timeline-item">
                             <div class="timeline-marker"></div>
                             <div class="timeline-content">
                                 <span class="timeline-date">February 2023 - Present</span>
-                                <h4 class="timeline-heading">Bachelor in Computer Science & IT (BSc.CSIT)</h4>
+                                <div class="timeline-heading">Bachelor in Computer Science & IT (BSc.CSIT)</div>
                                 <p class="timeline-institution">Academia International College</p>
                                 <p class="timeline-location">Gwarko, Lalitpur, Nepal</p>
                                 <p class="timeline-description">Currently pursuing undergraduate degree in Computer Science with focus on software engineering, web development, database management, and computer networks.</p>
@@ -333,7 +1808,7 @@
                             <div class="timeline-marker"></div>
                             <div class="timeline-content">
                                 <span class="timeline-date">August 2020 - August 2022</span>
-                                <h4 class="timeline-heading">+2 Science (High School)</h4>
+                                <div class="timeline-heading">+2 Science (High School)</div>
                                 <p class="timeline-institution">Bagmati College</p>
                                 <p class="timeline-location">Sukedhara, Kathmandu, Nepal</p>
                                 <span class="timeline-badge">GPA: 3.29</span>
@@ -343,7 +1818,7 @@
                             <div class="timeline-marker"></div>
                             <div class="timeline-content">
                                 <span class="timeline-date">March 2009 - February 2019</span>
-                                <h4 class="timeline-heading">SEE (School Leaving Certificate)</h4>
+                                <div class="timeline-heading">SEE (School Leaving Certificate)</div>
                                 <p class="timeline-institution">Shree Garma Secondary School</p>
                                 <p class="timeline-location">Garma-7, Solukhumbu, Nepal</p>
                                 <span class="timeline-badge">GPA: 3.64</span>
@@ -354,7 +1829,6 @@
             </div>
         </div>
     </section>
-
     <!-- Skills Section -->
     <section class="section section-alt" id="skills" role="region" aria-labelledby="skills-heading">
         <div class="container">
@@ -362,12 +1836,12 @@
                 <span class="section-tag">Technical Expertise</span>
                 <h2 class="section-title" id="skills-heading">My Skills & Technologies</h2>
             </div>
-          
+         
             <div class="skills-grid">
                 <div class="skill-category">
                     <div class="category-header">
                         <i class="fas fa-palette" aria-hidden="true"></i>
-                        <h3>Frontend Development</h3>
+                        <div>Frontend Development</div>
                     </div>
                     <div class="skill-list">
                         <div class="skill-item">
@@ -408,11 +1882,11 @@
                         </div>
                     </div>
                 </div>
-              
+             
                 <div class="skill-category">
                     <div class="category-header">
                         <i class="fas fa-server" aria-hidden="true"></i>
-                        <h3>Backend Development</h3>
+                        <div>Backend Development</div>
                     </div>
                     <div class="skill-list">
                         <div class="skill-item">
@@ -462,11 +1936,11 @@
                         </div>
                     </div>
                 </div>
-              
+             
                 <div class="skill-category">
                     <div class="category-header">
                         <i class="fas fa-database" aria-hidden="true"></i>
-                        <h3>Database Management</h3>
+                        <div>Database Management</div>
                     </div>
                     <div class="skill-list">
                         <div class="skill-item">
@@ -498,11 +1972,11 @@
                         </div>
                     </div>
                 </div>
-              
+             
                 <div class="skill-category">
                     <div class="category-header">
                         <i class="fas fa-tools" aria-hidden="true"></i>
-                        <h3>Tools & Platforms</h3>
+                        <div>Tools & Platforms</div>
                     </div>
                     <div class="skill-list">
                         <div class="skill-item">
@@ -555,29 +2029,28 @@
             </div>
         </div>
     </section>
-
     <!-- Projects Section -->
     <section class="section" id="projects" role="region" aria-labelledby="projects-heading">
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Portfolio Showcase</span>
-                <h2 class="section-title" id="projects-heading">Featured Projects</h2>
+                <h2 class="section-title" id="projects-heading">Featured Projects & Portfolio</h2>
             </div>
-          
+         
             <div class="projects-grid">
                 <!-- Featured Project -->
                 <div class="project-card featured" data-testid="card-project-holiday-himalaya">
                     <div class="project-image">
-                        <img src="assets/holidayhimalaya.webp" alt="Holiday Himalaya Treks and Expedition - Complete Travel Booking Platform" width="600" height="400" loading="lazy">
+                        <img src="assets/holidayhimalaya.webp" alt="Holiday Himalaya Treks and Expedition - Travel Booking Platform" width="600" height="400" loading="lazy">
                         <div class="project-placeholder">
                             <i class="fas fa-mountain" aria-hidden="true"></i>
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="https://www.holidayhimalaya.com/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Holiday Himalaya live website" data-testid="link-project-holiday-demo">
+                                <a href="https://www.holidayhimalaya.com/" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Holiday Himalaya website" data-testid="link-project-holiday-demo">
                                     <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Holiday Himalaya GitHub repository" data-testid="link-project-holiday-github">
+                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Holiday Himalaya code" data-testid="link-project-holiday-github">
                                     <i class="fab fa-github" aria-hidden="true"></i>
                                 </a>
                             </div>
@@ -585,9 +2058,9 @@
                     </div>
                     <div class="project-content">
                         <div class="project-badge">Featured Project</div>
-                        <h3 class="project-title" data-testid="text-project-holiday-title">Holiday Himalaya - Complete Tour & Travel Platform</h3>
+                        <h3 class="project-title" data-testid="text-project-holiday-title">Holiday Himalaya - Tour & Travel Platform</h3>
                         <p class="project-description" data-testid="text-project-holiday-description">
-                            A comprehensive tour and travel booking platform developed for Holiday Himalaya Treks & Expedition. Features include user registration, dynamic destination listings, secure booking system, admin panel for content management, and automated booking confirmations. Fully responsive design optimized for mobile devices with integrated payment processing and email notifications.
+                            Comprehensive tour and travel booking platform for Holiday Himalaya Treks & Expedition. Includes user registration, destination listings, secure booking, admin panel, payment processing, email notifications.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">PHP</span>
@@ -598,15 +2071,15 @@
                         </div>
                         <div class="project-actions">
                             <a href="https://www.holidayhimalaya.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-testid="button-project-holiday-demo">
-                                <i class="fas fa-globe" aria-hidden="true"></i> View Live Website
+                                <i class="fas fa-globe" aria-hidden="true"></i> View Live
                             </a>
                             <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="btn btn-outline" data-testid="button-project-holiday-code">
-                                <i class="fab fa-github" aria-hidden="true"></i> Source Code
+                                <i class="fab fa-github" aria-hidden="true"></i> Code
                             </a>
                         </div>
                     </div>
                 </div>
-              
+             
                 <!-- Regular Projects -->
                 <div class="project-card" data-testid="card-project-ecommerce">
                     <div class="project-image">
@@ -615,10 +2088,10 @@
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link" aria-label="View e-commerce project details" data-testid="link-project-ecommerce-details">
+                                <a href="#" class="project-link" aria-label="View e-commerce details" data-testid="link-project-ecommerce-details">
                                     <i class="fas fa-eye" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View e-commerce GitHub repository" data-testid="link-project-ecommerce-github">
+                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View e-commerce code" data-testid="link-project-ecommerce-github">
                                     <i class="fab fa-github" aria-hidden="true"></i>
                                 </a>
                             </div>
@@ -627,7 +2100,7 @@
                     <div class="project-content">
                         <h3 class="project-title" data-testid="text-project-ecommerce-title">E-commerce Website with Django</h3>
                         <p class="project-description" data-testid="text-project-ecommerce-description">
-                            Full-featured online store built with Django framework featuring product catalog, shopping cart, user authentication, admin panel, and secure payment integration. Includes category-based filtering, product search, order management, and responsive Bootstrap design for optimal shopping experience across all devices.
+                            Full-featured online store with product catalog, cart, authentication, admin panel, payment integration. Category filtering, search, order management, responsive design.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">Django</span>
@@ -638,7 +2111,7 @@
                         </div>
                     </div>
                 </div>
-              
+             
                 <div class="project-card">
                     <div class="project-image">
                         <div class="project-placeholder">
@@ -646,10 +2119,10 @@
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link" aria-label="View doctor appointment system details">
+                                <a href="#" class="project-link" aria-label="View doctor appointment details">
                                     <i class="fas fa-eye" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View healthcare project GitHub repository">
+                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View healthcare code">
                                     <i class="fab fa-github" aria-hidden="true"></i>
                                 </a>
                             </div>
@@ -658,7 +2131,7 @@
                     <div class="project-content">
                         <h3 class="project-title">Health Service - Doctor Appointment System</h3>
                         <p class="project-description">
-                            Comprehensive healthcare web application for online doctor appointments with real-time booking system, detailed doctor profiles, admin-controlled scheduling, and secure patient data management. Features include appointment reminders, prescription management, and multi-level user authentication for patients, doctors, and administrators.
+                            Healthcare app for doctor appointments with booking, profiles, scheduling, patient data. Reminders, prescriptions, multi-user authentication.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">PHP</span>
@@ -669,7 +2142,7 @@
                         </div>
                     </div>
                 </div>
-              
+             
                 <div class="project-card">
                     <div class="project-image">
                         <div class="project-placeholder">
@@ -677,10 +2150,10 @@
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="#" class="project-link" aria-label="View student management system details">
+                                <a href="#" class="project-link" aria-label="View student system details">
                                     <i class="fas fa-eye" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View student system GitHub repository">
+                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View student system code">
                                     <i class="fab fa-github" aria-hidden="true"></i>
                                 </a>
                             </div>
@@ -689,7 +2162,7 @@
                     <div class="project-content">
                         <h3 class="project-title">Student Management System</h3>
                         <p class="project-description">
-                            Desktop application developed to efficiently manage student records, attendance tracking, grade management, and course details. Features comprehensive search functionality, edit and delete operations, report generation, and clean graphical user interface designed for educational institutions and administrative staff.
+                            Desktop app for student records, attendance, grades, courses. Search, edit, reports, GUI for institutions.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">.NET</span>
@@ -699,7 +2172,7 @@
                         </div>
                     </div>
                 </div>
-              
+             
                 <div class="project-card">
                     <div class="project-image">
                         <img src="assets/holidayhimalaya-chatbot.webp" alt="Travel Assistant AI Chatbot for Holiday Himalaya" width="600" height="400" loading="lazy">
@@ -708,10 +2181,10 @@
                         </div>
                         <div class="project-overlay">
                             <div class="project-links">
-                                <a href="https://holidayhimalaya.com/chatbot" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View AI chatbot live demo">
+                                <a href="https://holidayhimalaya.com/chatbot" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View AI chatbot demo">
                                     <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://github.com/sujan7206/holidaychat" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View chatbot GitHub repository">
+                                <a href="https://github.com/sujan7206/holidaychat" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View chatbot code">
                                     <i class="fab fa-github" aria-hidden="true"></i>
                                 </a>
                             </div>
@@ -720,7 +2193,7 @@
                     <div class="project-content">
                         <h3 class="project-title">Travel Assistant AI Chatbot</h3>
                         <p class="project-description">
-                            Intelligent travel chatbot powered by AI and machine learning algorithms that provides personalized travel recommendations, destination information, and booking assistance. Integrated with Holiday Himalaya platform for seamless trip planning and booking experience. Features natural language processing and contextual understanding for enhanced user interactions.
+                            AI chatbot for travel recommendations, destination info, booking. Integrated with Holiday Himalaya, NLP for user interactions.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">Python</span>
@@ -731,7 +2204,7 @@
                         </div>
                     </div>
                 </div>
-              
+             
                 <div class="project-card">
                     <div class="project-image">
                         <div class="project-placeholder">
@@ -742,7 +2215,7 @@
                                 <a href="#" class="project-link" aria-label="View online bookstore details">
                                     <i class="fas fa-eye" aria-hidden="true"></i>
                                 </a>
-                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View bookstore GitHub repository">
+                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View bookstore code">
                                     <i class="fab fa-github" aria-hidden="true"></i>
                                 </a>
                             </div>
@@ -751,7 +2224,7 @@
                     <div class="project-content">
                         <h3 class="project-title">Online Bookstore with Payment Integration</h3>
                         <p class="project-description">
-                            Complete online bookstore platform with comprehensive ordering system and secure payment gateway integration. Features extensive book catalog with advanced search functionality, user reviews and ratings, shopping cart management, order tracking, and secure transaction processing with multiple payment options.
+                            Online bookstore with catalog, search, reviews, cart, order tracking, payment options.
                         </p>
                         <div class="project-tech">
                             <span class="tech-tag">PHP</span>
@@ -765,7 +2238,6 @@
             </div>
         </div>
     </section>
-
     <!-- Experience Section -->
     <section class="section section-alt" id="experience" role="region" aria-labelledby="experience-heading">
         <div class="container">
@@ -773,24 +2245,24 @@
                 <span class="section-tag">Professional Journey</span>
                 <h2 class="section-title" id="experience-heading">Work Experience & Projects</h2>
             </div>
-          
+         
             <div class="experience-timeline">
                 <div class="experience-item">
                     <div class="experience-marker"></div>
                     <div class="experience-content">
                         <span class="experience-date">Academic Project - 2024</span>
-                        <h3 class="experience-title">E-commerce Website Development with Django</h3>
+                        <div class="experience-title">E-commerce Website Development with Django</div>
                         <p class="experience-company">Academia International College - CSIT Program</p>
                         <p class="experience-description">
-                            Developed a full-featured e-commerce website using Django framework and MySQL database as a comprehensive group academic project. Took leadership role in backend development, database architecture, and project coordination while implementing industry-standard development practices.
+                            Developed full-featured e-commerce website using Django and MySQL as group project. Led backend, database, coordination.
                         </p>
                         <ul class="experience-highlights">
-                            <li>Implemented secure user registration and login system with authentication</li>
-                            <li>Built comprehensive product catalog with advanced search and filter functionality</li>
-                            <li>Developed shopping cart system and order placement workflow</li>
-                            <li>Integrated Django admin interface for efficient content management</li>
-                            <li>Created responsive frontend using modern HTML, CSS, and JavaScript techniques</li>
-                            <li>Implemented product categorization and inventory management system</li>
+                            <li>Secure user registration and login</li>
+                            <li>Product catalog with search/filter</li>
+                            <li>Shopping cart and order workflow</li>
+                            <li>Django admin for management</li>
+                            <li>Responsive frontend</li>
+                            <li>Inventory system</li>
                         </ul>
                         <div class="experience-tech">
                             <span class="tech-tag">Python</span>
@@ -802,24 +2274,24 @@
                         </div>
                     </div>
                 </div>
-              
+             
                 <div class="experience-item">
                     <div class="experience-marker"></div>
                     <div class="experience-content">
                         <span class="experience-date">Freelance Project - 2023</span>
-                        <h3 class="experience-title">Holiday Himalaya Website & AI Travel Assistant</h3>
+                        <div class="experience-title">Holiday Himalaya Website & AI Travel Assistant</div>
                         <p class="experience-company">Holiday Himalaya Treks & Expedition</p>
                         <p class="experience-description">
-                            Developed complete tour and travel platform with integrated AI-powered chatbot assistant for client booking and trip planning. Project involved full-stack development, database design, AI integration, and deployment for a real-world travel business operating in Nepal.
+                            Developed tour platform with AI chatbot for booking and planning. Full-stack, database, AI, deployment.
                         </p>
                         <ul class="experience-highlights">
-                            <li>Built full-stack booking platform using PHP and MySQL database</li>
-                            <li>Developed AI chatbot with travel recommendations and booking assistance</li>
-                            <li>Implemented comprehensive admin panel for content and booking management</li>
-                            <li>Created fully responsive design optimized for mobile experience</li>
-                            <li>Integrated secure payment gateway for online transactions</li>
-                            <li>Implemented email notification system for booking confirmations</li>
-                            <li>Optimized website performance and SEO for better search visibility</li>
+                            <li>Full-stack booking platform</li>
+                            <li>AI chatbot for recommendations</li>
+                            <li>Admin panel for management</li>
+                            <li>Responsive design</li>
+                            <li>Payment gateway</li>
+                            <li>Email notifications</li>
+                            <li>Performance/SEO optimization</li>
                         </ul>
                         <div class="experience-tech">
                             <span class="tech-tag">PHP</span>
@@ -834,7 +2306,6 @@
             </div>
         </div>
     </section>
-
     <!-- Gallery Section -->
     <section class="section" id="gallery" role="region" aria-labelledby="gallery-heading">
         <div class="container">
@@ -842,249 +2313,579 @@
                 <span class="section-tag">Visual Showcase</span>
                 <h2 class="section-title" id="gallery-heading">Project Gallery & Work Samples</h2>
             </div>
-          
+         
             <div class="gallery-grid">
                 <div class="gallery-item" data-category="workspace">
                     <div class="gallery-placeholder">
-                       <img src="assets/basnet-sujan.webp" alt="Sujan Basnet development workspace and coding environment" width="400" height="300" loading="lazy">
+                       <img src="assets/basnet-sujan.webp" alt="Sujan Basnet development workspace" width="400" height="300" loading="lazy">
                     </div>
                 </div>
                 <div class="gallery-item" data-category="project">
                     <div class="gallery-placeholder">
-                        <img src="assets/sujan-basnet_sb.webp" alt="Sujan Basnet project development and code showcase" width="400" height="300" loading="lazy">
+                        <img src="assets/sujan-basnet_sb.webp" alt="Sujan Basnet project code showcase" width="400" height="300" loading="lazy">
                     </div>
                 </div>
                 <div class="gallery-item" data-category="achievement">
                     <div class="gallery-placeholder">
-                       <img src="assets/sujan_basnet.webp" alt="Sujan Basnet academic achievements and certifications" width="400" height="300" loading="lazy">
+                       <img src="assets/sujan_basnet.webp" alt="Sujan Basnet academic achievements" width="400" height="300" loading="lazy">
                     </div>
                 </div>
                 <div class="gallery-item" data-category="project">
                     <div class="gallery-placeholder">
-                       <img src="assets/sujanbasnet.jpg" alt="Sujan Basnet professional profile and portfolio" width="400" height="300" loading="lazy">
+                       <img src="assets/sujanbasnet.jpg" alt="Sujan Basnet professional portfolio" width="400" height="300" loading="lazy">
                     </div>
                 </div>
                 <div class="gallery-item" data-category="workspace">
                     <div class="gallery-placeholder">
-                        <img src="assets/sujan.webp" alt="Sujan Basnet coding setup and development tools" width="400" height="300" loading="lazy">
+                        <img src="assets/sujan.webp" alt="Sujan Basnet coding setup" width="400" height="300" loading="lazy">
                     </div>
                 </div>
                 <div class="gallery-item" data-category="project">
                     <div class="gallery-placeholder">
-                            <img src="assets/img/sujan-basnet.jpg" alt="Sujan Basnet additional project demonstrations" width="400" height="300" loading="lazy">
+                            <img src="assets/img/sujan-basnet.jpg" alt="Sujan Basnet project demonstrations" width="400" height="300" loading="lazy">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Contact Section -->
     <section class="section section-alt" id="contact" role="region" aria-labelledby="contact-heading">
         <div class="container">
             <div class="section-header">
                 <span class="section-tag">Get In Touch</span>
-                <h2 class="section-title" id="contact-heading">Contact Information</h2>
+                <h2 class="section-title" id="contact-heading">Contact Me for Collaborations</h2>
             </div>
-          
+         
             <div class="contact-content">
-                <div class="contact-info">
-                    <p class="contact-intro">
-                        I'm currently available for freelance projects, internship opportunities, full-time positions, and collaborative ventures. Whether you have a project in mind, need technical consultation, or want to discuss potential opportunities, I'd love to hear from you. Let's connect and create something amazing together!
-                    </p>
-                  
-                    <div class="contact-cards">
-                        <div class="contact-card" data-testid="card-contact-email">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope" aria-hidden="true"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4 class="contact-label">Primary Email</h4>
-                                <a href="mailto:sujanbasnet7206@gmail.com" class="contact-value" data-testid="link-contact-email">
-                                    sujanbasnet7206@gmail.com
-                                </a>
-                                <p class="contact-note">Fastest response time - usually within a few hours</p>
-                            </div>
-                        </div>
-                      
-                        <div class="contact-card" data-testid="card-contact-whatsapp">
-                            <div class="contact-icon">
-                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4 class="contact-label">WhatsApp Business</h4>
-                                <a href="https://wa.me/9779849516842" target="_blank" rel="noopener noreferrer" class="contact-value" data-testid="link-contact-whatsapp">
-                                    +977 9849516842
-                                </a>
-                                <p class="contact-note">Available for calls and messages</p>
-                            </div>
-                        </div>
-                      
-                        <div class="contact-card" data-testid="card-contact-linkedin">
-                            <div class="contact-icon">
-                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4 class="contact-label">LinkedIn Profile</h4>
-                                <a href="https://www.linkedin.com/in/sujan-basnet-55018134b/" target="_blank" rel="noopener noreferrer" class="contact-value" data-testid="link-contact-linkedin">
-                                    Sujan Basnet - Full-Stack Developer
-                                </a>
-                                <p class="contact-note">Connect for professional opportunities</p>
-                            </div>
-                        </div>
-                      
-                        <div class="contact-card" data-testid="card-contact-github">
-                            <div class="contact-icon">
-                                <i class="fab fa-github" aria-hidden="true"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4 class="contact-label">GitHub Portfolio</h4>
-                                <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="contact-value" data-testid="link-contact-github">
-                                    github.com/sujan7206
-                                </a>
-                                <p class="contact-note">View my projects and code repositories</p>
-                            </div>
-                        </div>
-                      
-                        <div class="contact-card">
-                            <div class="contact-icon">
-                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4 class="contact-label">Location</h4>
-                                <p class="contact-value">
-                                    Budhanilkantha, Kathmandu, Nepal
-                                </p>
-                                <p class="contact-note">Available for remote work worldwide</p>
-                            </div>
-                        </div>
-                      
-                        <div class="contact-card">
-                            <div class="contact-icon">
-                                <i class="fas fa-graduation-cap" aria-hidden="true"></i>
-                            </div>
-                            <div class="contact-details">
-                                <h4 class="contact-label">Educational Institution</h4>
-                                <p class="contact-value">
-                                    Academia International College
-                                </p>
-                                <p class="contact-note">BSc CSIT Program - Gwarko, Lalitpur</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              
-                <div class="contact-social">
-                    <h3 class="contact-social-title">Connect With Me On Social Platforms</h3>
-                    <p class="contact-social-description">
-                        Follow my coding journey, see my latest projects, and stay updated with my professional development across these platforms.
-                    </p>
-                    <div class="social-links-large">
-                        <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="social-link-large" aria-label="Visit Sujan Basnet GitHub profile for code repositories" data-testid="link-social-github-contact">
-                            <i class="fab fa-github" aria-hidden="true"></i>
-                            <span>GitHub Portfolio</span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/sujan-basnet-55018134b/" target="_blank" rel="noopener noreferrer" class="social-link-large" aria-label="Connect with Sujan Basnet on LinkedIn" data-testid="link-social-linkedin-contact">
-                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                            <span>LinkedIn Profile</span>
-                        </a>
-                        <a href="https://wa.me/9779849516842" target="_blank" rel="noopener noreferrer" class="social-link-large" aria-label="Message Sujan Basnet on WhatsApp" data-testid="link-social-whatsapp-contact">
-                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                            <span>WhatsApp Chat</span>
-                        </a>
-                        <a href="mailto:sujanbasnet7206@gmail.com" class="social-link-large" aria-label="Send email to Sujan Basnet" data-testid="link-social-email-contact">
+                <p class="contact-intro">
+                    I'm available for freelance, internships, full-time positions, collaborations. Contact for projects, consultations, opportunities.
+                </p>
+                 
+                <div class="contact-cards">
+                    <div class="contact-card" data-testid="card-contact-email">
+                        <div class="contact-icon">
                             <i class="fas fa-envelope" aria-hidden="true"></i>
-                            <span>Email Direct</span>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-label">Email</div>
+                            <a href="mailto:sujanbasnet7206@gmail.com" class="contact-value" data-testid="link-contact-email">
+                                sujanbasnet7206@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                     
+                    <div class="contact-card" data-testid="card-contact-whatsapp">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-label">WhatsApp</div>
+                            <a href="https://wa.me/9779849516842" target="_blank" rel="noopener noreferrer" class="contact-value" data-testid="link-contact-whatsapp">
+                                +977 9849516842
+                            </a>
+                        </div>
+                    </div>
+                     
+                    <div class="contact-card" data-testid="card-contact-linkedin">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-label">LinkedIn</div>
+                            <a href="https://www.linkedin.com/in/sujan-basnet-55018134b/" target="_blank" rel="noopener noreferrer" class="contact-value" data-testid="link-contact-linkedin">
+                                Sujan Basnet
+                            </a>
+                        </div>
+                    </div>
+                     
+                    <div class="contact-card" data-testid="card-contact-github">
+                        <div class="contact-icon">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-label">GitHub</div>
+                            <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="contact-value" data-testid="link-contact-github">
+                                github.com/sujan7206
+                            </a>
+                        </div>
+                    </div>
+                     
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-label">Location</div>
+                            <p class="contact-value">
+                                Budhanilkantha, Kathmandu, Nepal
+                            </p>
+                        </div>
+                    </div>
+                     
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-label">Institution</div>
+                            <p class="contact-value">
+                                Academia International College
+                            </p>
+                        </div>
+                    </div>
+                </div>
+             
+                <div class="contact-social">
+                    <div class="contact-social-title">Connect on Social Media</div>
+                    <div class="social-links-large">
+                        <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" class="social-link-large" aria-label="GitHub profile" data-testid="link-social-github-contact">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sujan-basnet-55018134b/" target="_blank" rel="noopener noreferrer" class="social-link-large" aria-label="LinkedIn profile" data-testid="link-social-linkedin-contact">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://wa.me/9779849516842" target="_blank" rel="noopener noreferrer" class="social-link-large" aria-label="WhatsApp" data-testid="link-social-whatsapp-contact">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="mailto:sujanbasnet7206@gmail.com" class="social-link-large" aria-label="Email" data-testid="link-social-email-contact">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <span>Email</span>
                         </a>
                     </div>
                 </div>
+            </div>
+            <!-- Social Sharing -->
+            <div style="text-align:center;margin:2rem 0;">
+                <strong>Share this profile:</strong><br>
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fsujanbasnet7206.com.np%2F&title=Sujan%20Basnet%20-%20Full-Stack%20Developer%20Kathmandu&summary=Expert%20in%20PHP%2C%20Laravel%2C%20Django%2C%20React&source=https%3A%2F%2Fsujanbasnet7206.com.np%2F" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin fa-2x" style="color:#0077b5;"></i>
+                </a>
+                <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fsujanbasnet7206.com.np%2F&text=Check%20out%20Sujan%20Basnet's%20portfolio%20-%20Full-Stack%20Developer%20from%20Kathmandu%2C%20Nepal" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitter fa-2x" style="color:#1da1f2;"></i>
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsujanbasnet7206.com.np%2F" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook fa-2x" style="color:#1877f2;"></i>
+                </a>
+                <a href="https://wa.me/?text=Check%20out%20Sujan%20Basnet's%20portfolio%3A%20https%3A%2F%2Fsujanbasnet7206.com.np%2F" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp fa-2x" style="color:#25d366;"></i>
+                </a>
             </div>
         </div>
     </section>
-
     <!-- Footer -->
     <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
-                    <h4 class="footer-title">Sujan Basnet</h4>
+                    <div class="footer-title">Sujan Basnet</div>
                     <p class="footer-description">
-                        Full-Stack Developer and CSIT Student based in Kathmandu, Nepal. Passionate about creating innovative web solutions, scalable applications, and delivering exceptional digital experiences through clean code and modern development practices.
+                        Full-Stack Developer and CSIT Student in Kathmandu, Nepal. Creating innovative web solutions with clean code and modern practices.
                     </p>
                     <div class="footer-social">
-                        <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" aria-label="Visit Sujan Basnet GitHub">
+                        <a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                             <i class="fab fa-github" aria-hidden="true"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/sujan-basnet-55018134b/" target="_blank" rel="noopener noreferrer" aria-label="Visit Sujan Basnet LinkedIn">
+                        <a href="https://www.linkedin.com/in/sujan-basnet-55018134b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                             <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                         </a>
-                        <a href="https://wa.me/9779849516842" target="_blank" rel="noopener noreferrer" aria-label="Contact Sujan Basnet on WhatsApp">
+                        <a href="https://wa.me/9779849516842" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                             <i class="fab fa-whatsapp" aria-hidden="true"></i>
                         </a>
-                        <a href="mailto:sujanbasnet7206@gmail.com" aria-label="Email Sujan Basnet">
+                        <a href="mailto:sujanbasnet7206@gmail.com" aria-label="Email">
                             <i class="fas fa-envelope" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
-              
+             
                 <div class="footer-col">
-                    <h4 class="footer-title">Quick Navigation</h4>
+                    <div class="footer-title">Quick Navigation</div>
                     <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#skills">Technical Skills</a></li>
-                        <li><a href="#projects">Projects Portfolio</a></li>
+                        <li><a href="#home">Home Page</a></li>
+                        <li><a href="#about">About Section</a></li>
+                        <li><a href="#skills">Skills List</a></li>
+                        <li><a href="#projects">Projects Showcase</a></li>
                     </ul>
                 </div>
-              
+             
                 <div class="footer-col">
-                    <h4 class="footer-title">Featured Projects</h4>
+                    <div class="footer-title">Featured Projects</div>
                     <ul class="footer-links">
-                        <li><a href="https://www.holidayhimalaya.com/" target="_blank" rel="noopener noreferrer">Holiday Himalaya</a></li>
-                        <li><a href="#experience">Work Experience</a></li>
-                        <li><a href="#gallery">Project Gallery</a></li>
-                        <li><a href="#contact">Contact Information</a></li>
+                        <li><a href="https://www.holidayhimalaya.com/" target="_blank" rel="noopener noreferrer">Holiday Himalaya Site</a></li>
+                        <li><a href="#experience">Experience Timeline</a></li>
+                        <li><a href="#gallery">Gallery View</a></li>
+                        <li><a href="#contact">Contact Details</a></li>
                     </ul>
                 </div>
-              
+             
                 <div class="footer-col">
-                    <h4 class="footer-title">Resources & Downloads</h4>
+                    <div class="footer-title">Resources</div>
                     <ul class="footer-links">
-                        <li><a href="/assets/sujan-basnet-cv.pdf" download>Download CV/Resume</a></li>
-                        <li><a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer">GitHub Portfolio</a></li>
-                        <li><a href="mailto:sujanbasnet7206@gmail.com">Send Email Inquiry</a></li>
-                        <li><a href="#contact">Business Inquiries</a></li>
+                        <li><a href="/assets/sujan-basnet-cv.pdf" download>Download Resume</a></li>
+                        <li><a href="https://github.com/sujan7206" target="_blank" rel="noopener noreferrer">GitHub Repos</a></li>
+                        <li><a href="mailto:sujanbasnet7206@gmail.com">Email Inquiry</a></li>
+                        <li><a href="#contact">Business Contact</a></li>
                     </ul>
                 </div>
             </div>
-          
+         
             <div class="footer-bottom">
                 <p class="footer-copyright">
-                    &copy; <span id="year"></span> Sujan Basnet. All rights reserved. | Full-Stack Developer in Kathmandu, Nepal
+                    &copy; <span id="year"></span> Sujan Basnet. All rights reserved. | Full-Stack Developer Kathmandu, Nepal
                 </p>
-                <button class="back-to-top" id="back-to-top" aria-label="Back to top of page" data-testid="button-back-to-top">
+                <button class="back-to-top" id="back-to-top" aria-label="Back to top">
                     <i class="fas fa-arrow-up" aria-hidden="true"></i>
                 </button>
             </div>
         </div>
     </footer>
-
-    <!-- Gallery Lightbox -->
-    <div class="lightbox" id="lightbox" data-testid="lightbox-gallery" role="dialog" aria-modal="true" aria-label="Image gallery view">
-        <button class="lightbox-close" id="lightbox-close" aria-label="Close image gallery" data-testid="button-lightbox-close">
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image gallery">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close gallery">
             <i class="fas fa-times" aria-hidden="true"></i>
         </button>
-        <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous image" data-testid="button-lightbox-prev">
+        <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous image">
             <i class="fas fa-chevron-left" aria-hidden="true"></i>
         </button>
-        <button class="lightbox-next" id="lightbox-next" aria-label="Next image" data-testid="button-lightbox-next">
+        <button class="lightbox-next" id="lightbox-next" aria-label="Next image">
             <i class="fas fa-chevron-right" aria-hidden="true"></i>
         </button>
-        <div class="lightbox-content" id="lightbox-content" data-testid="content-lightbox"></div>
+        <div class="lightbox-content" id="lightbox-content"></div>
     </div>
-
     <!-- JavaScript -->
-    <script src="/js/main.js"></script>
-    
+    <script>
+// ===================================
+// Navigation & Theme Toggle
+// ===================================
+const nav = document.getElementById('nav');
+const navToggle = document.getElementById('nav-toggle');
+const navMenu = document.getElementById('nav-menu');
+const navLinks = document.querySelectorAll('.nav-link');
+const themeToggle = document.getElementById('theme-toggle');
+const backToTop = document.getElementById('back-to-top');
+// Sticky Navigation
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+ 
+  // Show/hide back to top button
+  if (window.scrollY > 300) {
+    backToTop.style.display = 'flex';
+  } else {
+    backToTop.style.display = 'none';
+  }
+});
+// Mobile Menu Toggle
+if (navToggle) {
+  navToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    const icon = navToggle.querySelector('i');
+    if (navMenu.classList.contains('active')) {
+      icon.classList.remove('fa-bars');
+      icon.classList.add('fa-times');
+    } else {
+      icon.classList.remove('fa-times');
+      icon.classList.add('fa-bars');
+    }
+  });
+}
+// Close mobile menu when clicking on a link
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navMenu.classList.remove('active');
+    const icon = navToggle.querySelector('i');
+    icon.classList.remove('fa-times');
+    icon.classList.add('fa-bars');
+  });
+});
+// Active Navigation Link on Scroll
+const sections = document.querySelectorAll('section[id]');
+function scrollActive() {
+  const scrollY = window.pageYOffset;
+  sections.forEach(section => {
+    const sectionHeight = section.offsetHeight;
+    const sectionTop = section.offsetTop - 100;
+    const sectionId = section.getAttribute('id');
+    const navLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
+    if (navLink) {
+      if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+        navLink.classList.add('active');
+      } else {
+        navLink.classList.remove('active');
+      }
+    }
+  });
+}
+window.addEventListener('scroll', scrollActive);
+// Theme Toggle
+const currentTheme = localStorage.getItem('theme') || 'light';
+if (currentTheme === 'dark') {
+  document.documentElement.classList.add('dark');
+  themeToggle.querySelector('i').classList.remove('fa-moon');
+  themeToggle.querySelector('i').classList.add('fa-sun');
+}
+themeToggle.addEventListener('click', () => {
+  document.documentElement.classList.toggle('dark');
+  const icon = themeToggle.querySelector('i');
+ 
+  if (document.documentElement.classList.contains('dark')) {
+    icon.classList.remove('fa-moon');
+    icon.classList.add('fa-sun');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    icon.classList.remove('fa-sun');
+    icon.classList.add('fa-moon');
+    localStorage.setItem('theme', 'light');
+  }
+});
+// Back to Top Button
+backToTop.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+// ===================================
+// Typing Animation
+// ===================================
+const typingText = document.getElementById('typing-text');
+const roles = [
+  'CSIT Student',
+  'Full-Stack Developer',
+  'Web Developer',
+  'PHP Developer',
+  'Python Developer',
+  'Problem Solver'
+];
+let roleIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+let typingSpeed = 100;
+function typeRole() {
+  const currentRole = roles[roleIndex];
+ 
+  if (isDeleting) {
+    typingText.textContent = currentRole.substring(0, charIndex - 1);
+    charIndex--;
+    typingSpeed = 50;
+  } else {
+    typingText.textContent = currentRole.substring(0, charIndex + 1);
+    charIndex++;
+    typingSpeed = 100;
+  }
+ 
+  if (!isDeleting && charIndex === currentRole.length) {
+    isDeleting = true;
+    typingSpeed = 2000; // Pause at end
+  } else if (isDeleting && charIndex === 0) {
+    isDeleting = false;
+    roleIndex = (roleIndex + 1) % roles.length;
+    typingSpeed = 500; // Pause before typing new role
+  }
+ 
+  setTimeout(typeRole, typingSpeed);
+}
+// Start typing animation
+setTimeout(typeRole, 1000);
+// ===================================
+// Smooth Scroll
+// ===================================
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      const offsetTop = target.offsetTop - 70;
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+// ===================================
+// Scroll Reveal Animation
+// ===================================
+function revealOnScroll() {
+  const reveals = document.querySelectorAll('.scroll-reveal');
+ 
+  reveals.forEach(element => {
+    const windowHeight = window.innerHeight;
+    const elementTop = element.getBoundingClientRect().top;
+    const elementVisible = 150;
+   
+    if (elementTop < windowHeight - elementVisible) {
+      element.classList.add('active');
+    }
+  });
+}
+window.addEventListener('scroll', revealOnScroll);
+// Add scroll-reveal class to elements
+const elementsToReveal = document.querySelectorAll(`
+  .about-content,
+  .stat-card,
+  .skill-category,
+  .project-card,
+  .experience-item,
+  .gallery-item,
+  .contact-card
+`);
+elementsToReveal.forEach(element => {
+  element.classList.add('scroll-reveal');
+});
+// Initial check for elements in view
+setTimeout(revealOnScroll, 100);
+// ===================================
+// Skill Bars Animation
+// ===================================
+function animateSkillBars() {
+  const skillBars = document.querySelectorAll('.skill-progress');
+ 
+  skillBars.forEach(bar => {
+    const barTop = bar.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+   
+    if (barTop < windowHeight - 100) {
+      const width = bar.style.width;
+      bar.style.width = '0';
+      setTimeout(() => {
+        bar.style.width = width;
+      }, 100);
+    }
+  });
+}
+let skillsAnimated = false;
+window.addEventListener('scroll', () => {
+  if (!skillsAnimated) {
+    const skillsSection = document.getElementById('skills');
+    const skillsTop = skillsSection.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+   
+    if (skillsTop < windowHeight - 200) {
+      animateSkillBars();
+      skillsAnimated = true;
+    }
+  }
+});
+// ===================================
+// Gallery Lightbox
+// ===================================
+const galleryItems = document.querySelectorAll('.gallery-item');
+const lightbox = document.getElementById('lightbox');
+const lightboxContent = document.getElementById('lightbox-content');
+const lightboxClose = document.getElementById('lightbox-close');
+const lightboxPrev = document.getElementById('lightbox-prev');
+const lightboxNext = document.getElementById('lightbox-next');
+let currentGalleryIndex = 0;
+galleryItems.forEach((item, index) => {
+  item.addEventListener('click', () => {
+    currentGalleryIndex = index;
+    openLightbox(index);
+  });
+});
+function openLightbox(index) {
+  const item = galleryItems[index];
+  const placeholder = item.querySelector('.gallery-placeholder').cloneNode(true);
+ 
+  lightboxContent.innerHTML = '';
+  lightboxContent.appendChild(placeholder);
+  lightbox.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  lightbox.classList.remove('active');
+  document.body.style.overflow = '';
+}
+lightboxClose.addEventListener('click', closeLightbox);
+lightboxPrev.addEventListener('click', () => {
+  currentGalleryIndex = (currentGalleryIndex - 1 + galleryItems.length) % galleryItems.length;
+  openLightbox(currentGalleryIndex);
+});
+lightboxNext.addEventListener('click', () => {
+  currentGalleryIndex = (currentGalleryIndex + 1) % galleryItems.length;
+  openLightbox(currentGalleryIndex);
+});
+// Close lightbox on background click
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox) {
+    closeLightbox();
+  }
+});
+// Close lightbox with Escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+    closeLightbox();
+  }
+ 
+  if (lightbox.classList.contains('active')) {
+    if (e.key === 'ArrowLeft') {
+      currentGalleryIndex = (currentGalleryIndex - 1 + galleryItems.length) % galleryItems.length;
+      openLightbox(currentGalleryIndex);
+    } else if (e.key === 'ArrowRight') {
+      currentGalleryIndex = (currentGalleryIndex + 1) % galleryItems.length;
+      openLightbox(currentGalleryIndex);
+    }
+  }
+});
+// ===================================
+// Lazy Loading (for future images)
+// ===================================
+const images = document.querySelectorAll('img[data-src]');
+const imageObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const img = entry.target;
+      img.src = img.dataset.src;
+      img.removeAttribute('data-src');
+      observer.unobserve(img);
+    }
+  });
+}, {
+  rootMargin: '50px'
+});
+images.forEach(img => imageObserver.observe(img));
+// ===================================
+// Loading State
+// ===================================
+window.addEventListener('load', () => {
+  document.body.classList.add('loaded');
+});
+// ===================================
+// Performance: Reduce motion for users who prefer it
+// ===================================
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+if (prefersReducedMotion.matches) {
+  // Disable animations for users who prefer reduced motion
+  document.documentElement.style.setProperty('--transition-fast', '0ms');
+  document.documentElement.style.setProperty('--transition-base', '0ms');
+  document.documentElement.style.setProperty('--transition-slow', '0ms');
+}
+// ===================================
+// Console Easter Egg
+// ===================================
+console.log(`
+%c
+╔═══════════════════════════════════════════╗
+║ ║
+║ Hi there, Developer! ║
+║ ║
+║ Looking for a Full-Stack Developer? ║
+║ Let's build something amazing together! ║
+║ ║
+║ Email: sujanbasnet7206@gmail.com ║
+║ GitHub: github.com/sujan7206 ║
+║ ║
+╚═══════════════════════════════════════════╝
+`,
+'color: #2563eb; font-family: monospace; font-size: 12px;'
+);
+</script>
+   
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
